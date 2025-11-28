@@ -37,4 +37,4 @@ The system uses a fully serverless, containerized architecture on AWS.
 - CloudWatch Alarms collect logs, metrics, and alert on failures or resource issues.
 - Security & networking: everything runs inside a VPC with private or public subnets, security groups and least-privilege IAM roles.
 
-![Workflow Diagram](
+
