@@ -134,6 +134,26 @@ Docker images pushed to ECR require authentication. EventBridge triggers only re
 *Top 5 match results*
 <img width="1920" height="1080" alt="Top5 matches" src="https://github.com/user-attachments/assets/381a6dcc-480c-486c-95cc-278d2ea32ca1" />
 
+<br>
+
+<br>
+
+<br>
+
+*Score distributions*
+<img width="1920" height="1020" alt="Score distribution" src="https://github.com/user-attachments/assets/be42d9f6-0bcf-4b26-b4c1-c4ce858abe06" />
+
+<br>
+
+<br>
+
+<br>
+
+
+*Ranking Resumes*
+<img width="1920" height="1080" alt="Screenshot 2025-11-28 132543" src="https://github.com/user-attachments/assets/f8c88259-a67d-4c81-9f02-63da46a6442b" />
+
+
 
 
 
