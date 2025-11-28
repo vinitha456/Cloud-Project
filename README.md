@@ -3,6 +3,23 @@
 
 ### Table of contents:
 
+- [Project Overview](#-project-overview)
+- [Architecture](#-architecture)
+- [Architecture Diagram](#-architecture-diagram)
+- [Project Structure](#-project-structure)
+- [Screenshots](#-screenshots)
+- [Features](#-features)
+- [API Endpoints](#-api-endpoints)
+- [Data Flow](#-data-flow)
+- [Technology Stack](#-technology-stack)
+- [Security](#-security)
+- [Limitations](#-limitations)
+- [License](#-license)
+
+<br>
+
+<br>
+
 - [Project Overview](#-Project-Overview)
 - [Architecture](#-Architecture)
 - [Architecture Diagram](#-Architecture-Diagram)
