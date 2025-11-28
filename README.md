@@ -3,31 +3,14 @@
 
 ### Table of contents:
 
-- [Project Overview](#-project-overview)
-- [Architecture](#-architecture)
-- [Architecture Diagram](#-architecture-diagram)
-- [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
-- [Features](#-features)
-- [API Endpoints](#-api-endpoints)
-- [Data Flow](#-data-flow)
-- [Technology Stack](#-technology-stack)
-- [Security](#-security)
-- [Limitations](#-limitations)
-- [License](#-license)
-
-<br>
-
-<br>
-
-- [Project Overview](#-Project-Overview)
-- [Architecture](#-Architecture)
-- [Architecture Diagram](#-Architecture-Diagram)
-- [Data Flow](#-Data-Flow)
-- [Technology Stack](#-Technology-Stack)
-- [Security](#-Security)
-- [Screenshots](#-Screenshots)
-- [Limitations](#-Limitations)
+- [Project Overview]
+- [Architecture]
+- [Architecture Diagram]
+- [Data Flow]
+- [Technology Stack]
+- [Security]
+- [Screenshots]
+- [Limitations]
 
 ### Project Overview
 This project delivers an automated resume matching system that uses NLP and machine learning to streamline the recruitment process. The system extracts key information from unstructured resumes, cleans and standardizes the content.The entire application is deployed on AWS using a scalable, serverless architecture with ECS Fargate, Lambda, S3, DynamoDB, and an Application Load Balancer, ensuring high availability, automated processing, and seamless updates through an EventBridge.
