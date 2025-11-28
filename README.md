@@ -97,6 +97,42 @@ Streamlit reads cleaned resumes and job description from DynamoDB.
 - Vectorization : TF - IDF(scikit-learn) for keyword weighting and BERT (HuggingFace Transformers) for semantic embeddings.
 - Data Handling: NumPy and  Pandas to manipulate extracted text and embeddings.
 
+### Security
+
+- Network Security (VPC) :The entire application runs inside an AWS VPC, isolating it from the public internet. Private subnets are used for ECS tasks and internal services.
+- Security Groups: Security groups act like virtual firewalls. ALB tasks only accept allowed ports to access EC2.
+- IAM Roles & Least Privilege Access: Every AWS component uses a dedicated IAM role. Permissions are minimal and specific.
+- S3 Bucket Security: Buckets have Block Public Access enabled. Objects are encrypted using server side Encryption provided by S3.
+- Data Encryption: Data at rest is encrypted using S3 Server Side Encryption, in DynamoDB auto encrypts data. ECR is an Encrypted repository. 
+In Transit Data travels through HTTPS when accessed through ALB.
+- CI/CD Security:
+Docker images pushed to ECR require authentication. EventBridge triggers only recognized Lambda functions.No manual deployment reduces human error.
+- Lambda Execution Security: Lambda runs inside the VPC only if configured, not the public internet.
+
+
+### Screenshots
+
+*User Interface: Upload resumes and job descriptions, view match results*
+
+<img width="1920" height="1020" alt="Screenshot 2025-11-28 131409" src="https://github.com/user-attachments/assets/f374cb11-69cf-4dc0-bf22-a3232d440d32" />
+
+<br>
+
+<br>
+
+<br>
+
+*Sample Match Results*
+<img width="1920" height="1080" alt="Match results" src="https://github.com/user-attachments/assets/608905c5-97cf-4d5b-9ace-ce36bf4a2762" />
+
+<br>
+
+<br>
+
+<br>
+
+*Top 5 match results*
+<img width="1920" height="1080" alt="Top5 matches" src="https://github.com/user-attachments/assets/381a6dcc-480c-486c-95cc-278d2ea32ca1" />
 
 
 
