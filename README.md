@@ -154,6 +154,19 @@ Docker images pushed to ECR require authentication. EventBridge triggers only re
 <img width="1920" height="1080" alt="Screenshot 2025-11-28 132543" src="https://github.com/user-attachments/assets/f8c88259-a67d-4c81-9f02-63da46a6442b" />
 
 
+### Limitations
+
+- Matching relies fully on text similarity and cannot assess real skill quality, seniority, or project depth.
+
+- English only NLP pipeline, resumes in other languages perform poorly.
+
+- No recruiter feedback loop, the system does not learn or improve based on selections.
+
+- AWS Lambda limits such as timeout & memory can affect large resumes or high processing volume.
+
+- Limited explainability, the system provides similarity scores but not reasons behind rankings.
+
+- Scaling to very large candidate pools may require additional optimization or cost management.
 
 
 
